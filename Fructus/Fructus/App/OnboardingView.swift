@@ -10,7 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     // MARK: - PROPERTIES
     var fruits: [Fruit] = fruitsData
-    
+
     // MARK: - BODY
     var body: some View {
         TabView {
@@ -19,7 +19,7 @@ struct OnboardingView: View {
             }
         } //: TAB
         .tabViewStyle(PageTabViewStyle())
-        .padding(.vertical, 20)
+            .padding(.vertical, 20)
     }
 }
 
